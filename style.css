@@ -1,0 +1,131 @@
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #272727;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color:#000000;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+  .bg-black{
+    background-color: black;
+  }
+  .container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .right-section{
+    margin-left: 50%;
+    height: 700px;
+    background-color: #000000;
+  }
+  .left-section{
+    width: 50%;
+    float: left;
+    height: 700px;
+    background-color: rgb(0, 0, 0);
+  }
+  .name-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+  }
+  .font-initial{
+    font: 1em initial;
+  }
+  .name-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    
+  }
+  .content-aligne{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    
+  }
+  .top-button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+  }
+  .btn-white{
+    background-color: white;
+  }
+  .btn-white:hover{
+    background-color: black;
+    color: white;
+    border-color: #ffffff;
+  }
+  .btn-black{
+    background-color: black;
+    color: white;
+    border-color: #ffffff;
+  }
+  .btn-black:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+  }
+  .image-profile{
+    width: 210px;
+    height: 210px;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
