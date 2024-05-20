@@ -123,8 +123,8 @@
     
   }
   .image-profile{
-    width: 200px;
-    height: 200px;
+    width: 185px;
+    height: 185px;
     display: flex;
     flex-wrap: wrap;
     
@@ -167,4 +167,10 @@
   }
   .side-bar{
    font-size: 2rem;
+  }
+  .copyright{
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
