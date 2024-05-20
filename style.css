@@ -129,3 +129,38 @@
     flex-wrap: wrap;
     
   }
+  .btn-resume{
+    width: 11rem;
+  }
+  .div-resume{
+    padding-top: 5rem;
+  }
+  .social{
+    justify-content: center;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 8rem;
+    padding-top: 5rem;
+    
+    color: white;
+  }
+  .stay{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    margin-right: 4rem;
+  }
+  .icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    margin-right: 4rem;
+  }
+  .icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #ffffff;
+  }
