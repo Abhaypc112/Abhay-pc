@@ -123,8 +123,8 @@
     
   }
   .image-profile{
-    width: 210px;
-    height: 210px;
+    width: 200px;
+    height: 200px;
     display: flex;
     flex-wrap: wrap;
     
@@ -152,15 +152,19 @@
     color: white;
     margin-right: 4rem;
   }
-  .icons{
+
+  .icon-group{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    color: white;
-    margin-right: 4rem;
+    margin-right: 1.5rem;
   }
   .icon{
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 20px;
+    height: 20px;
     color: #ffffff;
+    align-items: center;
+  }
+  .side-bar{
+   font-size: 2rem;
   }
