@@ -123,14 +123,15 @@
     
   }
   .image-profile{
-    width: 185px;
-    height: 185px;
+    width: 180px;
+    height: 180px;
     display: flex;
     flex-wrap: wrap;
+
     
   }
   .btn-resume{
-    width: 11rem;
+    width: 10.4rem;
   }
   .div-resume{
     padding-top: 5rem;
@@ -140,7 +141,7 @@
     color: white;
     display: flex;
     flex-wrap: wrap;
-    margin-right: 8rem;
+    margin-right: 7rem;
     padding-top: 5rem;
     
     color: white;
@@ -150,14 +151,14 @@
     flex-wrap: wrap;
     justify-content: center;
     color: white;
-    margin-right: 4rem;
+    margin-right: 3rem;
   }
 
   .icon-group{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-right: 1.5rem;
+    margin-right: .5rem;
   }
   .icon{
     width: 20px;
@@ -174,3 +175,11 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+  .text-size{
+    font-size:38px ;
+  }
+  .p-text{
+    font-size:15px ;
+    
+  }
+  
